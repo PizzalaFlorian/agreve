@@ -35,7 +35,7 @@
 	}
 
 	a {
-		color: #DBBD7D;
+		color: #B89F69;
 		text-decoration: underline;
 	}
 
@@ -90,13 +90,13 @@
 	}
 
 	hr {
-		border-top: solid 1px #DBBD7D;
+		border-top: solid 1px #B89F69;
 		border: 0;
 		margin-bottom: 1.5em;
 	}
 
 	blockquote {
-		border-left: solid 0.5em #DBBD7D;
+		border-left: solid 0.5em #B89F69;
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
@@ -143,7 +143,7 @@
 		-ms-appearance: none;
 		appearance: none;
 		background: none;
-		border: solid 1px #DBBD7D;
+		border: solid 1px #B89F69;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -156,7 +156,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #DBBD7D;
+			border-color: #B89F69;
 		}
 
 	input[type="text"],
@@ -361,7 +361,7 @@
 			display: inline-block;
 			padding-right: 1em;
 			font-size: 1.4em;
-			color: #DBBD7D;
+			color: #B89F69;
 		}
 
 		ul.special-icons p {
@@ -379,7 +379,7 @@
 		}
 
 			table.default tbody tr {
-				border-bottom: solid 1px #DBBD7D;
+				border-bottom: solid 1px #B89F69;
 			}
 
 			table.default td {
@@ -411,8 +411,8 @@
 		background: none;
 		border-radius: none;
 		border: 2px solid;
-		border-color: #DBBD7D;
-		color: #DBBD7D;
+		border-color: #B89F69;
+		color: #B89F69;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
@@ -432,7 +432,9 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #DBBD7D;
+			background: #B89F69;
+			background-image: url("../images/craft2.jpg");
+			background-repeat: repeat-x repeat-y;
 			color: white;
 		}
 
@@ -449,7 +451,7 @@
 			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background: white;
-				color: #DBBD7D;
+				color: #B89F69;
 			}
 
 		input[type="submit"].fit,
@@ -515,7 +517,9 @@
 
 		.wrapper.style3 {
 			padding-bottom: 6em;
-			background: #DBBD7D;
+			background: #B89F69;
+			background-image: url("../images/craft2.jpg");
+			background-repeat: repeat-x repeat-y;
 			text-align: center;
 			color: white;
 		}
@@ -534,7 +538,9 @@
 		}
 
 		.wrapper.style5 {
-			background: #DBBD7D;
+			background: #B89F69;
+			background-image: url("../images/craft2.jpg");
+			background-repeat: repeat-x repeat-y;
 			text-align: center;
 			color: white;
 		}
@@ -680,7 +686,9 @@
 		#banner h2 {
 			display: inline-block;
 			padding: 0.50em 0.30em;
-			background: #DBBD7D;
+			background: #B89F69;
+			background-image: url("../images/craft2.jpg");
+			background-repeat: repeat-x repeat-y;
 			font-size: 3em;
 			font-weight: 400;
 		}
