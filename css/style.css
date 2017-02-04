@@ -841,3 +841,39 @@
 .logoSite{
 	height: 3.8em;
 }
+@media screen and (max-width: 1300px) {
+  .mylogo{
+	height: 3.5em;
+	}
+
+	.logoSite{
+		height: 3.5em;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+  .mylogo{
+	height: 3.1em;
+	}
+
+	.logoSite{
+		height: 3.1em;
+	}
+	#nav > ul > li a{
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.mylogo{
+	height: 2.8em;
+	}
+
+	.logoSite{
+		height: 2.8em;
+	}
+	#nav > ul > li a{
+		font-size: 0.6em;
+	}
+}
+}
