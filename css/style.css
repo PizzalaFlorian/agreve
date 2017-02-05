@@ -62,6 +62,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 700;
+		font-family: cursive;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -106,7 +107,7 @@
 	}
 
 	header.major {
-		padding-bottom: 3em;
+		padding-bottom: 1em;
 		text-align: center;
 		text-transform: uppercase;
 	}
@@ -631,6 +632,7 @@
 					text-transform: uppercase;
 					font-weight: 400;
 					font-size: 1em;
+					font-family: cursive;
 				}
 
 				#nav > ul > li:first-child {
@@ -667,6 +669,7 @@
 				letter-spacing: 2px;
 				text-decoration: none;
 				text-transform: uppercase;
+				font-family: cursive;
 			}
 
 			.dropotron > li.active > a, .dropotron > li:hover > a {
@@ -833,6 +836,15 @@
 	/*margin-top: -4em;*/
 }
 
+.btn-facebook:hover{
+	background-color: #4E4E4E;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 .logoSite{
 	height: 3.8em;
 }
@@ -860,8 +872,9 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .mylogo{
-	height: 3.1em;
+  	.mylogo{
+  		padding-top: 0.25em;
+		height: 3.1em;
 	}
 
 	.logoSite{
