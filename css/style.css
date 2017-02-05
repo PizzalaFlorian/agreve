@@ -837,6 +837,11 @@
 	height: 3.8em;
 }
 
+.logoMobile{
+	height: 40px;
+	margin-top: 2px;
+}
+
 .home{
 	height: 300px;
 }
