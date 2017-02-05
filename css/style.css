@@ -816,11 +816,6 @@
 	}
 
 /* Modif perso */
-.home{
-	height: 300px;
-}
-
-
 
 .flexrow{
 	display: flex;
@@ -841,6 +836,11 @@
 .logoSite{
 	height: 3.8em;
 }
+
+.home{
+	height: 300px;
+}
+
 @media screen and (max-width: 1300px) {
   .mylogo{
 	height: 3.5em;
@@ -848,6 +848,9 @@
 
 	.logoSite{
 		height: 3.5em;
+	}
+	.home{
+		height: 200px;
 	}
 }
 
@@ -862,6 +865,9 @@
 	#nav > ul > li a{
 		font-size: 0.8em;
 	}
+	.home{
+		height: 200px;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -874,6 +880,10 @@
 	}
 	#nav > ul > li a{
 		font-size: 0.6em;
+	}
+
+	.home{
+		height: 35px;
 	}
 }
 }
