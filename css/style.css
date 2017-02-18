@@ -556,11 +556,11 @@
 				margin: 0em auto 2em auto;*/
 			}
 
-				.wrapper.style5 .image img {
+				/*.wrapper.style5 .image img {
 					border-radius: 50%;
 					border: 10px solid;
 					border-color: white;
-				}
+				}*/
 
 /* Header */
 
@@ -815,6 +815,7 @@
 
 /* Team */
 
+
 	#team h3 {
 		margin-bottom: 0.50em;
 		letter-spacing: 2px;
@@ -899,6 +900,17 @@ p{
 
 .image{
 	margin: 0 !important;
+}
+
+
+.vignette > .image {
+	height: 200px !important;
+	width: 200px !important;
+}
+
+.vignette > .image > img, .vignette > .image {
+	height: 100%;
+
 }
 
 .team > .row > div > .image > img{
