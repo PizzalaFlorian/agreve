@@ -548,8 +548,8 @@
 
 			.wrapper.style5 .image {
 				display: block;
-				width: 60%;
-				margin: 0em auto 2em auto;
+				/*width: 60%;
+				margin: 0em auto 2em auto;*/
 			}
 
 				.wrapper.style5 .image img {
@@ -874,6 +874,10 @@
 
 p{
 	text-align: justify;
+}
+
+.image{
+	margin: 0 !important;
 }
 
 @media screen and (max-width: 1300px) {
